@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
+<!--  The "groups" is inside the suite tag, it will run all the tests in the XML file -->
+
 <suite name="test_suite">
 	<groups>
 		<run>

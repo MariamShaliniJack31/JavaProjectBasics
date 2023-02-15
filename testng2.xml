@@ -3,6 +3,7 @@
 
 <suite name="test_suite">
 
+<!-- The groups is inside the Personal Loan test and it will work only inside the test tag with the name Personal Loan. -->
 
 	<test name="Personal Loan">
 		<groups>

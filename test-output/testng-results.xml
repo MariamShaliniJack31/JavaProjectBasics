@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T11:41:14 GMT-05:00" name="test_suite" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="146">
+  <suite started-at="2023-02-15T11:56:33 GMT-05:00" name="test_suite" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="151">
     <groups>
-      <group name="SmokeTest">
-        <method signature="Personal_loan.WebLoginPersonalLoan()[pri:0, instance:TestNG_Grouping.Personal_loan@3514a4c0]" name="WebLoginPersonalLoan" class="TestNG_Grouping.Personal_loan"/>
-        <method signature="Home_loan.MobileLoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@57cf54e1]" name="MobileLoginHomeLoan" class="TestNG_Grouping.Home_loan"/>
-        <method signature="Car_loan.APILoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@1de5f259]" name="APILoginCarLoan" class="TestNG_Grouping.Car_loan"/>
-      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2023-02-15T11:41:14 GMT-05:00" name="Personal Loan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="56">
-      <class name="TestNG_Grouping.Personal_loan">
-        <test-method signature="WebLoginPersonalLoan()[pri:0, instance:TestNG_Grouping.Personal_loan@3514a4c0]" started-at="2023-02-15T11:41:14 GMT-05:00" name="WebLoginPersonalLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="9" status="PASS">
+    <test started-at="2023-02-15T11:56:33 GMT-05:00" name="IT Department" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="74">
+      <class name="TestNG_Annotations.it_department">
+        <test-method signature="qa_analyst()[pri:0, instance:TestNG_Annotations.it_department@4229bb3f]" started-at="2023-02-15T11:56:33 GMT-05:00" name="qa_analyst" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginPersonalLoan -->
-      </class> <!-- TestNG_Grouping.Personal_loan -->
-    </test> <!-- Personal Loan -->
-    <test started-at="2023-02-15T11:41:14 GMT-05:00" name="Home Loan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="10">
-      <class name="TestNG_Grouping.Home_loan">
-        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@57cf54e1]" started-at="2023-02-15T11:41:14 GMT-05:00" name="APILoginHomeLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- qa_analyst -->
+        <test-method signature="software_developers()[pri:0, instance:TestNG_Annotations.it_department@4229bb3f]" started-at="2023-02-15T11:56:33 GMT-05:00" name="software_developers" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILoginHomeLoan -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@57cf54e1]" started-at="2023-02-15T11:41:14 GMT-05:00" name="MobileLoginHomeLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- software_developers -->
+        <test-method signature="software_testers()[pri:0, instance:TestNG_Annotations.it_department@4229bb3f]" started-at="2023-02-15T11:56:33 GMT-05:00" name="software_testers" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@57cf54e1]" started-at="2023-02-15T11:41:14 GMT-05:00" name="WebLoginHomeLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- software_testers -->
+        <test-method is-config="true" signature="before_test()[pri:0, instance:TestNG_Annotations.it_department@4229bb3f]" started-at="2023-02-15T11:56:33 GMT-05:00" name="before_test" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginHomeLoan -->
-      </class> <!-- TestNG_Grouping.Home_loan -->
-    </test> <!-- Home Loan -->
-    <test started-at="2023-02-15T11:41:14 GMT-05:00" name="Car Loan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="8">
-      <class name="TestNG_Grouping.Car_loan">
-        <test-method signature="APILoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@1de5f259]" started-at="2023-02-15T11:41:14 GMT-05:00" name="APILoginCarLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- before_test -->
+      </class> <!-- TestNG_Annotations.it_department -->
+    </test> <!-- IT Department -->
+    <test started-at="2023-02-15T11:56:33 GMT-05:00" name="HR Department" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="13">
+      <class name="TestNG_Annotations.hr_department">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:TestNG_Annotations.hr_department@4dbb42b7]" started-at="2023-02-15T11:56:33 GMT-05:00" name="before_test" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILoginCarLoan -->
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@1de5f259]" started-at="2023-02-15T11:41:14 GMT-05:00" name="MobileLoginCarLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="0" status="PASS">
+        </test-method> <!-- before_test -->
+        <test-method signature="counsellor()[pri:0, instance:TestNG_Annotations.hr_department@4dbb42b7]" started-at="2023-02-15T11:56:33 GMT-05:00" name="counsellor" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@1de5f259]" started-at="2023-02-15T11:41:14 GMT-05:00" name="WebLoginCarLoan" finished-at="2023-02-15T11:41:14 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- counsellor -->
+        <test-method signature="hr()[pri:0, instance:TestNG_Annotations.hr_department@4dbb42b7]" started-at="2023-02-15T11:56:33 GMT-05:00" name="hr" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
-      </class> <!-- TestNG_Grouping.Car_loan -->
-    </test> <!-- Car Loan -->
+        </test-method> <!-- hr -->
+        <test-method signature="manager()[pri:0, instance:TestNG_Annotations.hr_department@4dbb42b7]" started-at="2023-02-15T11:56:33 GMT-05:00" name="manager" finished-at="2023-02-15T11:56:33 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manager -->
+      </class> <!-- TestNG_Annotations.hr_department -->
+    </test> <!-- HR Department -->
   </suite> <!-- test_suite -->
 </testng-results>
