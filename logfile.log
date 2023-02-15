@@ -1,0 +1,72 @@
+2023-02-13 18:40:40,832 INFO  [Log4j] New driver instantiated 
+2023-02-13 18:40:40,845 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-13 19:14:46,262 INFO  [Log4j] New driver instantiated 
+2023-02-13 19:14:46,274 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-13 19:14:47,735 INFO  [Log4j] Web application launched 
+2023-02-13 19:14:47,881 INFO  [Log4j] Username entered in the Username text box 
+2023-02-13 19:14:48,016 INFO  [Log4j] Password entered in the Password text box 
+2023-02-13 19:14:48,127 INFO  [Log4j] Click action performed on Submit button 
+2023-02-13 19:14:48,458 INFO  [Log4j] Browser closed 
+2023-02-13 19:25:04,080 INFO  [Log4j] New driver instantiated 
+2023-02-13 19:25:04,106 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-13 19:25:05,885 INFO  [Log4j] Web application launched 
+2023-02-13 19:25:06,134 INFO  [Log4j] Username entered in the Username text box 
+2023-02-13 19:25:06,321 INFO  [Log4j] Password entered in the Password text box 
+2023-02-13 19:25:06,489 INFO  [Log4j] Click action performed on Submit button 
+2023-02-13 19:25:08,593 INFO  [Log4j] Browser closed 
+2023-02-13 19:26:56,182 INFO  [Log4j] New driver instantiated 
+2023-02-13 19:26:56,199 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-13 19:26:57,788 INFO  [Log4j] Web application launched 
+2023-02-13 19:26:58,007 INFO  [Log4j] Username entered in the Username text box 
+2023-02-13 19:26:58,217 INFO  [Log4j] Password entered in the Password text box 
+2023-02-13 19:26:58,335 INFO  [Log4j] Click action performed on Submit button 
+2023-02-13 19:26:58,663 INFO  [Log4j] Browser closed 
+2023-02-14 12:45:31,009 INFO  [Log4j] New driver instantiated 
+2023-02-14 12:45:31,034 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 12:45:32,515 INFO  [Log4j] Web application launched 
+2023-02-14 12:45:32,697 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 12:45:32,868 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 12:45:33,003 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 12:45:33,308 INFO  [Log4j] Browser closed 
+2023-02-14 12:48:59,569 INFO  [Log4j] New driver instantiated 
+2023-02-14 12:48:59,588 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 12:49:00,911 INFO  [Log4j] Web application launched 
+2023-02-14 12:49:01,050 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 12:49:01,156 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 12:49:01,233 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 12:49:01,499 INFO  [Log4j] Browser closed 
+2023-02-14 13:22:02,755 INFO  [Log4j] New driver instantiated 
+2023-02-14 13:22:02,772 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 13:22:04,072 INFO  [Log4j] Web application launched 
+2023-02-14 13:22:04,212 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 13:22:04,354 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 13:22:04,450 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 13:22:04,691 INFO  [Log4j] Browser closed 
+2023-02-14 15:04:57,630 INFO  [Log4j] New driver instantiated 
+2023-02-14 15:04:57,641 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 15:04:58,868 INFO  [Log4j] Web application launched 
+2023-02-14 15:04:58,999 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 15:04:59,127 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 15:04:59,230 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 15:04:59,482 INFO  [Log4j] Browser closed 
+2023-02-14 15:10:10,463 INFO  [Log4j] New driver instantiated 
+2023-02-14 15:10:10,486 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 15:10:11,763 INFO  [Log4j] Web application launched 
+2023-02-14 15:10:11,903 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 15:10:12,035 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 15:10:12,109 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 15:10:12,362 INFO  [Log4j] Browser closed 
+2023-02-14 15:11:16,220 INFO  [Log4j] New driver instantiated 
+2023-02-14 15:11:16,248 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 15:11:17,469 INFO  [Log4j] Web application launched 
+2023-02-14 15:11:17,625 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 15:11:17,754 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 15:11:17,823 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 15:11:18,053 INFO  [Log4j] Browser closed 
+2023-02-14 15:58:12,518 INFO  [Log4j] New driver instantiated 
+2023-02-14 15:58:12,540 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-02-14 15:58:14,147 INFO  [Log4j] Web application launched 
+2023-02-14 15:58:14,404 INFO  [Log4j] Username entered in the Username text box 
+2023-02-14 15:58:14,619 INFO  [Log4j] Password entered in the Password text box 
+2023-02-14 15:58:14,746 INFO  [Log4j] Click action performed on Submit button 
+2023-02-14 15:58:15,730 INFO  [Log4j] Browser closed 
