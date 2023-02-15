@@ -5,9 +5,11 @@
 
 <suite name="test_suite">
 	<groups>
+		<define name = "SuperGroup">
+   			<include name = "SmokeTest"></include>
+   		</define>
 		<run>
-<!-- 			<exclude name="Smoke.*" /> USING REGULAR EXPRESSIONS-->
-		<exclude name="SmokeTest" />
+			<include name = "SuperGroup" />
 		</run>
 	</groups>
 	

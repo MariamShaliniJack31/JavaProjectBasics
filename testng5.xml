@@ -6,8 +6,7 @@
 <suite name="test_suite">
 	<groups>
 		<run>
-<!-- 			<exclude name="Smoke.*" /> USING REGULAR EXPRESSIONS-->
-		<exclude name="SmokeTest" />
+			<include name="SmokeTest" />
 		</run>
 	</groups>
 	
