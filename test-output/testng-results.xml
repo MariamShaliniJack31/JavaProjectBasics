@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T12:39:40 GMT-05:00" name="test_suite" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="165">
+  <suite started-at="2023-02-15T14:05:25 GMT-05:00" name="TestNG XML Dependency Suite" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="76">
     <groups>
+      <group name="logout">
+        <method signature="GroupDependency.CloseAccount()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="CloseAccount" class="TestNG_Grouping.GroupDependency"/>
+      </group> <!-- logout -->
+      <group name="openbrowser">
+        <method signature="GroupDependency.OpenBrowser()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="OpenBrowser" class="TestNG_Grouping.GroupDependency"/>
+      </group> <!-- openbrowser -->
+      <group name="login">
+        <method signature="GroupDependency.LogIn()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="LogIn" class="TestNG_Grouping.GroupDependency"/>
+      </group> <!-- login -->
+      <group name="viewacc">
+        <method signature="GroupDependency.ViewAcc()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="ViewAcc" class="TestNG_Grouping.GroupDependency"/>
+      </group> <!-- viewacc -->
     </groups>
-    <test started-at="2023-02-15T12:39:40 GMT-05:00" name="Personal Loan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="69">
-      <class name="TestNG_Grouping.Personal_loan">
-        <test-method signature="APILoginPersonalLoan()[pri:0, instance:TestNG_Grouping.Personal_loan@d29f28]" started-at="2023-02-15T12:39:40 GMT-05:00" name="APILoginPersonalLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="11" status="PASS">
+    <test started-at="2023-02-15T14:05:25 GMT-05:00" name="ToolsQA" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="76">
+      <class name="TestNG_Grouping.GroupDependency">
+        <test-method signature="OpenBrowser()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="OpenBrowser" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILoginPersonalLoan -->
-        <test-method signature="MobileLoginPersonalLoan()[pri:0, instance:TestNG_Grouping.Personal_loan@d29f28]" started-at="2023-02-15T12:39:40 GMT-05:00" name="MobileLoginPersonalLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="LogIn()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="LogIn" depends-on-groups="openbrowser" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginPersonalLoan -->
-      </class> <!-- TestNG_Grouping.Personal_loan -->
-    </test> <!-- Personal Loan -->
-    <test started-at="2023-02-15T12:39:40 GMT-05:00" name="Home Loan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="10">
-      <class name="TestNG_Grouping.Home_loan">
-        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@37d4349f]" started-at="2023-02-15T12:39:40 GMT-05:00" name="APILoginHomeLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- LogIn -->
+        <test-method signature="ViewAcc()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="ViewAcc" depends-on-groups="login" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILoginHomeLoan -->
-        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNG_Grouping.Home_loan@37d4349f]" started-at="2023-02-15T12:39:40 GMT-05:00" name="WebLoginHomeLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="1" status="PASS">
+        </test-method> <!-- ViewAcc -->
+        <test-method signature="CloseAccount()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="CloseAccount" depends-on-groups="viewacc" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginHomeLoan -->
-      </class> <!-- TestNG_Grouping.Home_loan -->
-    </test> <!-- Home Loan -->
-    <test started-at="2023-02-15T12:39:40 GMT-05:00" name="Car Loan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="9">
-      <class name="TestNG_Grouping.Car_loan">
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@53ce1329]" started-at="2023-02-15T12:39:40 GMT-05:00" name="MobileLoginCarLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNG_Grouping.Car_loan@53ce1329]" started-at="2023-02-15T12:39:40 GMT-05:00" name="WebLoginCarLoan" finished-at="2023-02-15T12:39:40 GMT-05:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
-      </class> <!-- TestNG_Grouping.Car_loan -->
-    </test> <!-- Car Loan -->
-  </suite> <!-- test_suite -->
+        </test-method> <!-- CloseAccount -->
+      </class> <!-- TestNG_Grouping.GroupDependency -->
+    </test> <!-- ToolsQA -->
+  </suite> <!-- TestNG XML Dependency Suite -->
 </testng-results>
