@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[BeforeMethod : Starting Test On Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod : Finished Test On Chrome Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-15T14:05:25 GMT-05:00" name="TestNG XML Dependency Suite" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="76">
+  <suite started-at="2023-02-16T11:36:56 GMT-05:00" name="Default suite" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3400">
     <groups>
-      <group name="logout">
-        <method signature="GroupDependency.CloseAccount()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="CloseAccount" class="TestNG_Grouping.GroupDependency"/>
-      </group> <!-- logout -->
-      <group name="openbrowser">
-        <method signature="GroupDependency.OpenBrowser()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="OpenBrowser" class="TestNG_Grouping.GroupDependency"/>
-      </group> <!-- openbrowser -->
-      <group name="login">
-        <method signature="GroupDependency.LogIn()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="LogIn" class="TestNG_Grouping.GroupDependency"/>
-      </group> <!-- login -->
-      <group name="viewacc">
-        <method signature="GroupDependency.ViewAcc()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" name="ViewAcc" class="TestNG_Grouping.GroupDependency"/>
-      </group> <!-- viewacc -->
     </groups>
-    <test started-at="2023-02-15T14:05:25 GMT-05:00" name="ToolsQA" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="76">
-      <class name="TestNG_Grouping.GroupDependency">
-        <test-method signature="OpenBrowser()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="OpenBrowser" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="10" status="PASS">
+    <test started-at="2023-02-16T11:36:56 GMT-05:00" name="Default test" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3400">
+      <class name="TestNG.TC1_FirstTC">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:56 GMT-05:00" name="beforeMethod" finished-at="2023-02-16T11:36:56 GMT-05:00" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod : Starting Test On Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:56 GMT-05:00" name="f" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3101" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="LogIn()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="LogIn" depends-on-groups="openbrowser" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="2" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:59 GMT-05:00" name="afterMethod" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="216" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[AfterMethod : Finished Test On Chrome Browser]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- LogIn -->
-        <test-method signature="ViewAcc()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="ViewAcc" depends-on-groups="login" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ViewAcc -->
-        <test-method signature="CloseAccount()[pri:0, instance:TestNG_Grouping.GroupDependency@932bc4a]" started-at="2023-02-15T14:05:25 GMT-05:00" name="CloseAccount" depends-on-groups="viewacc" finished-at="2023-02-15T14:05:25 GMT-05:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseAccount -->
-      </class> <!-- TestNG_Grouping.GroupDependency -->
-    </test> <!-- ToolsQA -->
-  </suite> <!-- TestNG XML Dependency Suite -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG.TC1_FirstTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

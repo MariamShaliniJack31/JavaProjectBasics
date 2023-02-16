@@ -1,5 +1,6 @@
 package TestNG_Grouping;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Personal_loan {
@@ -7,6 +8,7 @@ public class Personal_loan {
 	@Test(groups = { "SmokeTest" })
 	public void WebLoginPersonalLoan() {
 		System.out.println("Web Login Personal Loan");
+		Reporter.log("Personal Loan - Smoke Test");
 	}
 
 	@Test

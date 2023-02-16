@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Annotations">
+      <class name="TestNG_Parameters.C6_DPwithMethod">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeClass"/>
-          <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="f2"/>
-          <include name="afterClass"/>
+          <include name="Sum" invocation-numbers="1"/>
         </methods>
-      </class> <!-- TestNG.Annotations -->
+      </class> <!-- TestNG_Parameters.C6_DPwithMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
