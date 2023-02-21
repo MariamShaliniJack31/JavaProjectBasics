@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[BeforeMethod : Starting Test On Chrome Browser]]>
-    </line>
-    <line>
-      <![CDATA[AfterMethod : Finished Test On Chrome Browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-16T11:36:56 GMT-05:00" name="Default suite" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3400">
+  <suite started-at="2023-02-20T19:30:23 GMT-05:00" name="Suite" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="4585">
     <groups>
     </groups>
-    <test started-at="2023-02-16T11:36:56 GMT-05:00" name="Default test" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3400">
-      <class name="TestNG.TC1_FirstTC">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:56 GMT-05:00" name="beforeMethod" finished-at="2023-02-16T11:36:56 GMT-05:00" duration-ms="6" status="PASS">
+    <test started-at="2023-02-20T19:30:23 GMT-05:00" name="ChromeTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="4292">
+      <class name="TestNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestNG.CrossBrowserTesting@729d991e]" started-at="2023-02-20T19:30:23 GMT-05:00" name="beforeTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="3783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[BeforeMethod : Starting Test On Chrome Browser]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:56 GMT-05:00" name="f" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="3101" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:TestNG.CrossBrowserTesting@729d991e]" started-at="2023-02-20T19:30:27 GMT-05:00" name="login" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TC1_FirstTC@3059cbc]" started-at="2023-02-16T11:36:59 GMT-05:00" name="afterMethod" finished-at="2023-02-16T11:36:59 GMT-05:00" duration-ms="216" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.CrossBrowserTesting@729d991e]" started-at="2023-02-20T19:30:27 GMT-05:00" name="afterTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="355" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[AfterMethod : Finished Test On Chrome Browser]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestNG.TC1_FirstTC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-02-20T19:30:23 GMT-05:00" name="EdgeTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="4585">
+      <class name="TestNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestNG.CrossBrowserTesting@a530d0a]" started-at="2023-02-20T19:30:23 GMT-05:00" name="beforeTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="4111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:TestNG.CrossBrowserTesting@a530d0a]" started-at="2023-02-20T19:30:27 GMT-05:00" name="login" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.CrossBrowserTesting@a530d0a]" started-at="2023-02-20T19:30:27 GMT-05:00" name="afterTest" finished-at="2023-02-20T19:30:27 GMT-05:00" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.CrossBrowserTesting -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
