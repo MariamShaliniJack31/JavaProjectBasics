@@ -2,6 +2,8 @@ package dataDrivenFW;
 
 import java.io.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 /**
@@ -12,6 +14,9 @@ public class ExcelUtils {
 	
 	private XSSFWorkbook ExcelWBook;
 	private XSSFSheet ExcelWSheet;
+	private static XSSFRow Row;
+	private static XSSFCell Cell;
+
 	   
    	//Constructor to connect to the Excel with sheetname and Path
 	public ExcelUtils(String Path, String SheetName) throws Exception {
@@ -61,6 +66,26 @@ public class ExcelUtils {
 			return 000.00;
 		}
 	}
+	
+	public void setcellData(String Path, String output, int RowNo, int colno) throws Exception {
+		
+		Row = ExcelWSheet.getRow(RowNo);
+		Cell = Row.getCell(colno);
+		
+		if (Cell == null) {
+			Cell = Row.createCell(colno);
+			Cell.setCellValue(output);
+		} else {
+			Cell.setCellValue(output);
+		}
+		
+		FileOutputStream Fileout = new FileOutputStream(Path);
+		ExcelWBook.write(Fileout);
+		Fileout.flush();
+		Fileout.close();
+	}
+	
+
 	
 //	public static void main(String[] args) throws Exception {
 //
