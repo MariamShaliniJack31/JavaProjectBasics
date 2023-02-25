@@ -9,17 +9,17 @@ public class Login_Page {
 	private static WebElement element = null;
 	
 	public static WebElement txtbx_UserName(WebDriver driver){
-		element = driver.findElement(By.id("log"));
+		element = driver.findElement(By.xpath("//input[@id='email']"));
 		return element;
 	}
 
 	public static WebElement txtbx_Password(WebDriver driver){
-		element = driver.findElement(By.id("pwd"));
+		element = driver.findElement(By.xpath("//input[@id='pass']"));
 		return element;
 	}
 
 	public static WebElement btn_LogIn(WebDriver driver){
-		element = driver.findElement(By.id("login"));
+		element = driver.findElement(By.xpath("//button[@name='login']"));
 		return element;
 	}
 }
