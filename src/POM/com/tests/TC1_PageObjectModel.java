@@ -10,7 +10,7 @@ import POM.com.pages.Home_Page;
 import POM.com.pages.Login_Page;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class PageObjectModel {
+public class TC1_PageObjectModel {
 
 	private static WebDriver driver = null;
 
@@ -22,13 +22,14 @@ public class PageObjectModel {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com");
 		
-		Login_Page lp = new Login_Page();
 		//// Use page Object library now
-		lp.txtbx_UserName(driver).sendKeys("mariamshalini@gmail.com");
+		Login_Page.txtbx_UserName(driver).sendKeys("mariamshalini@gmail.com");
 		Login_Page.txtbx_Password(driver).sendKeys("Shalini31*");
 		Login_Page.btn_LogIn(driver).click();
 		
 		System.out.println("Login Successfully, now it is the time to Log Off buddy.");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		String title = Home_Page.getTitle(driver); 
 		
 		System.out.println("The title of the Page is : " +title);

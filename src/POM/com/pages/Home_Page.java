@@ -6,10 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class Home_Page {
 	
-	private static WebElement element = null;
-
 	public static String getTitle(WebDriver driver){
 		String Title = driver.getTitle();
+		System.out.println(Title);
 		return Title;
 	}
 }
