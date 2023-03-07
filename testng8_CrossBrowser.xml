@@ -4,12 +4,15 @@
 <suite name="Suite" parallel="tests" thread-count = "5">
 	<test name="EdgeTest">
  		<parameter name="browser" value="edge" />
+ 		<parameter name="Name" value="Shalini" />
  		<classes>
  			<class name="TestNG.CrossBrowserTesting" />
  		</classes>
  	</test>
  	<test name="ChromeTest">
+ 		<parameter name="Name" value="Rufus" />
  		<parameter name="browser" value= "chrome" />
+ 		
  		<classes>
  			<class name="TestNG.CrossBrowserTesting" />
  		</classes>

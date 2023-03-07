@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T18:35:42 GMT-05:00" name="Default suite" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="69">
+  <suite started-at="2023-03-07T12:33:34 GMT-05:00" name="TestNG Parameters Suite" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="144">
     <groups>
     </groups>
-    <test started-at="2023-02-21T18:35:42 GMT-05:00" name="Default test" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="69">
-      <class name="TestNG_IInvokedMethodListener.TestNGClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNG_IInvokedMethodListener.TestNGClass@7205765b]" started-at="2023-02-21T18:35:42 GMT-05:00" name="setUp" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="11" status="PASS">
+    <test started-at="2023-03-07T12:33:34 GMT-05:00" name="Params" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="74">
+      <class name="TestNG_Parameters.C1_Params">
+        <test-method signature="Sum(int,int)[pri:0, instance:TestNG_Parameters.C1_Params@29d89d5d]" started-at="2023-03-07T12:33:34 GMT-05:00" name="Sum" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:0, instance:TestNG_IInvokedMethodListener.TestNGClass@7205765b]" started-at="2023-02-21T18:35:42 GMT-05:00" name="test1" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="6" status="PASS">
+        </test-method> <!-- Sum -->
+        <test-method signature="Diff(int,int)[pri:1, instance:TestNG_Parameters.C1_Params@29d89d5d]" started-at="2023-03-07T12:33:34 GMT-05:00" name="Diff" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:TestNG_IInvokedMethodListener.TestNGClass@7205765b]" started-at="2023-02-21T18:35:42 GMT-05:00" name="test2" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="2" status="PASS">
+        </test-method> <!-- Diff -->
+      </class> <!-- TestNG_Parameters.C1_Params -->
+    </test> <!-- Params -->
+    <test started-at="2023-03-07T12:33:34 GMT-05:00" name="Multiply" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="5">
+      <class name="TestNG_Parameters.C2_Multiply">
+        <test-method signature="mul(int,int)[pri:0, instance:TestNG_Parameters.C2_Multiply@5d0a1059]" started-at="2023-03-07T12:33:34 GMT-05:00" name="mul" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:TestNG_IInvokedMethodListener.TestNGClass@7205765b]" started-at="2023-02-21T18:35:42 GMT-05:00" name="cleanUp" finished-at="2023-02-21T18:35:42 GMT-05:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- TestNG_IInvokedMethodListener.TestNGClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- mul -->
+      </class> <!-- TestNG_Parameters.C2_Multiply -->
+    </test> <!-- Multiply -->
+  </suite> <!-- TestNG Parameters Suite -->
 </testng-results>

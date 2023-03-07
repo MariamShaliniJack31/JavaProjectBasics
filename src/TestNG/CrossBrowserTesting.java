@@ -17,20 +17,22 @@ public class CrossBrowserTesting {
 
 	public WebDriver driver;
 	
-	@Parameters("browser")
+	@Parameters({"browser", "Name"})
 	@BeforeClass
 	// Passing Browser parameter from TestNG xml
-	public void beforeTest(String browser) {
+	public void beforeTest(String bro, String nam) {
 		
 		// If the browser is Firefox, then do this
-		if(browser.equalsIgnoreCase("edge")) {
+		if(bro.equalsIgnoreCase("edge")) {
 			//Initializing the Edge driver
 			System.setProperty("webdriver.edge.driver","C:\\Users\\mrufu\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else if (browser.equalsIgnoreCase("chrome")) { 
+			System.out.println("I am in Edge Ms. "+nam);
+		} else if (bro.equalsIgnoreCase("chrome")) { 
 			//Initialize the chrome driver
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\mrufu\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
+			System.out.println("I am in Chrome Mr. "+nam);
 		} 
 		// Enter the website address in the browser
 		driver.get("https://www.toolsqa.com"); 

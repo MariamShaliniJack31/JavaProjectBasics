@@ -25,5 +25,9 @@ public class XLDemo {
 	    dd.setcellData(Path, "TC Passed", 10, 6);
 	    dd.setcellData(Path, "TC Passed", 11, 6);
 	    dd.setcellData(Path, "TC Passed", 12, 6);
+	    
+	    JXL j = new JXL();
+		System.out.println(j.getGmailURL());
+		System.out.println(j.getbrowserStatusvalueType());
 	}
 }
