@@ -4,8 +4,8 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -34,7 +34,7 @@ public class C16TakesScreenshot {
 		File destFile = null;
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			String filePath = System.getProperty("user.dir") + "/screenshots/" + "_" + formater.format(calendar.getTime()) + ".png";
+			String filePath = System.getProperty("user.dir") + "/screenshots/" + "Guru99" + "_" + formater.format(calendar.getTime()) + ".png";
 			System.out.println(filePath);
 			destFile = new File(filePath);
 			FileUtils.copyFile(scrFile, destFile);
