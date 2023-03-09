@@ -70,3 +70,10 @@
 2023-02-14 15:58:14,619 INFO  [Log4j] Password entered in the Password text box 
 2023-02-14 15:58:14,746 INFO  [Log4j] Click action performed on Submit button 
 2023-02-14 15:58:15,730 INFO  [Log4j] Browser closed 
+2023-03-08 18:59:32,112 INFO  [Log4j] New driver instantiated 
+2023-03-08 18:59:32,132 INFO  [Log4j] Implicit wait applied on the driver for 10 seconds 
+2023-03-08 18:59:34,206 INFO  [Log4j] Web application launched 
+2023-03-08 18:59:34,367 INFO  [Log4j] Username entered in the Username text box 
+2023-03-08 18:59:34,521 INFO  [Log4j] Password entered in the Password text box 
+2023-03-08 18:59:34,643 INFO  [Log4j] Click action performed on Submit button 
+2023-03-08 18:59:35,197 INFO  [Log4j] Browser closed 

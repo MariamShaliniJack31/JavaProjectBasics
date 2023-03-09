@@ -1,7 +1,7 @@
-15:12:09,191  INFO Log4jSample.Log4j<strong>{1}</strong>:23 - New driver instantiated
-15:12:09,216  INFO Log4jSample.Log4j<strong>{1}</strong>:27 - Implicit wait applied on the driver for 10 seconds
-15:12:10,353  INFO Log4jSample.Log4j<strong>{1}</strong>:31 - Web application launched
-15:12:10,486  INFO Log4jSample.Log4j<strong>{1}</strong>:36 - Username entered in the Username text box
-15:12:10,603  INFO Log4jSample.Log4j<strong>{1}</strong>:41 - Password entered in the Password text box
-15:12:10,701  INFO Log4jSample.Log4j<strong>{1}</strong>:45 - Click action performed on Submit button
-15:12:10,905  INFO Log4jSample.Log4j<strong>{1}</strong>:56 - Browser closed
+19:00:12,861  INFO Log4jSample.Log4j<strong>{1}</strong>:23 - New driver instantiated
+19:00:12,875  INFO Log4jSample.Log4j<strong>{1}</strong>:27 - Implicit wait applied on the driver for 10 seconds
+19:00:15,041  INFO Log4jSample.Log4j<strong>{1}</strong>:31 - Web application launched
+19:00:15,282  INFO Log4jSample.Log4j<strong>{1}</strong>:36 - Username entered in the Username text box
+19:00:15,519  INFO Log4jSample.Log4j<strong>{1}</strong>:41 - Password entered in the Password text box
+19:00:15,703  INFO Log4jSample.Log4j<strong>{1}</strong>:45 - Click action performed on Submit button
+19:00:16,226  INFO Log4jSample.Log4j<strong>{1}</strong>:56 - Browser closed
