@@ -8,7 +8,7 @@ import java.util.Random;
 public class RandomStringGenerator {
 
 	public static void main(String[] args) {
-		
+
 		String rsg = randomStringGenerator();
 		System.out.println(rsg);
 		
