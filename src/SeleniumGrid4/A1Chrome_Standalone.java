@@ -46,7 +46,7 @@ public class A1Chrome_Standalone {
 
  		driver.get(URL);
  		System.out.println(driver.getTitle());
- 		Thread.sleep(5000);
+ 		Thread.sleep(1000);
  		driver.quit();
  		
  		
