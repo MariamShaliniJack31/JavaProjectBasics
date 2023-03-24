@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-07T12:33:34 GMT-05:00" name="TestNG Parameters Suite" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="144">
+  <suite started-at="2023-03-23T17:05:00 GMT-04:00" name="Suite" finished-at="2023-03-23T17:05:05 GMT-04:00" duration-ms="5128">
     <groups>
     </groups>
-    <test started-at="2023-03-07T12:33:34 GMT-05:00" name="Params" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="74">
-      <class name="TestNG_Parameters.C1_Params">
-        <test-method signature="Sum(int,int)[pri:0, instance:TestNG_Parameters.C1_Params@29d89d5d]" started-at="2023-03-07T12:33:34 GMT-05:00" name="Sum" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="9" status="PASS">
+    <test started-at="2023-03-23T17:05:00 GMT-04:00" name="EdgeTest" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="4499">
+      <class name="TestNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.CrossBrowserTesting@6cd28fa7]" started-at="2023-03-23T17:05:00 GMT-04:00" name="beforeTest" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="4047" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[9]]>
+                <![CDATA[edge]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[3]]>
+                <![CDATA[Shalini]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Sum -->
-        <test-method signature="Diff(int,int)[pri:1, instance:TestNG_Parameters.C1_Params@29d89d5d]" started-at="2023-03-07T12:33:34 GMT-05:00" name="Diff" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="3" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:TestNG.CrossBrowserTesting@6cd28fa7]" started-at="2023-03-23T17:05:04 GMT-04:00" name="login" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.CrossBrowserTesting@6cd28fa7]" started-at="2023-03-23T17:05:04 GMT-04:00" name="afterTest" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.CrossBrowserTesting -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-03-23T17:05:00 GMT-04:00" name="ChromeTest" finished-at="2023-03-23T17:05:05 GMT-04:00" duration-ms="5128">
+      <class name="TestNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.CrossBrowserTesting@2c1b194a]" started-at="2023-03-23T17:05:00 GMT-04:00" name="beforeTest" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="4654" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[9]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[3]]>
+                <![CDATA[Rufus]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Diff -->
-      </class> <!-- TestNG_Parameters.C1_Params -->
-    </test> <!-- Params -->
-    <test started-at="2023-03-07T12:33:34 GMT-05:00" name="Multiply" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="5">
-      <class name="TestNG_Parameters.C2_Multiply">
-        <test-method signature="mul(int,int)[pri:0, instance:TestNG_Parameters.C2_Multiply@5d0a1059]" started-at="2023-03-07T12:33:34 GMT-05:00" name="mul" finished-at="2023-03-07T12:33:34 GMT-05:00" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:TestNG.CrossBrowserTesting@2c1b194a]" started-at="2023-03-23T17:05:04 GMT-04:00" name="login" finished-at="2023-03-23T17:05:04 GMT-04:00" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mul -->
-      </class> <!-- TestNG_Parameters.C2_Multiply -->
-    </test> <!-- Multiply -->
-  </suite> <!-- TestNG Parameters Suite -->
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.CrossBrowserTesting@2c1b194a]" started-at="2023-03-23T17:05:04 GMT-04:00" name="afterTest" finished-at="2023-03-23T17:05:05 GMT-04:00" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
