@@ -19,7 +19,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ChromeBrowser2_NotWorking {
+public class A3ChromeBrowser_Options {
 
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		
@@ -31,7 +31,7 @@ public class ChromeBrowser2_NotWorking {
 		ChromeOptions options = new ChromeOptions();
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
-		options.addArguments("--headless");
+		//options.addArguments("--headless");
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--disable-dev-shm-usage");
@@ -68,15 +68,20 @@ public class ChromeBrowser2_NotWorking {
 		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		capabilities.setCapability("cssSelectorsEnabled", true);
 		System.out.println("Before WebDriver");
-		WebDriverManager.chromedriver().arch64().setup();
+		
+		//This line is not Working
+		//WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().browserVersion("111.0").setup();
  		
  		
  		//driver = new RemoteWebDriver(new URL(Node), options);
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mrufu\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver(options);
  	
  		driver.get(URL);
  		System.out.println(driver.getTitle());
- 		Thread.sleep(5000);
+ 		driver.manage().window().maximize();
+ 		Thread.sleep(2000);
  		driver.quit();
  	}
 }
