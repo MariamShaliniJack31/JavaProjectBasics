@@ -14,7 +14,7 @@ public class TC_1_POM extends TestBase{
 
 	public static void main(String[] args) throws Exception{
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\mrufu\\Downloads\\chromedriver_win32_110\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\mrufu\\Downloads\\chromedriver_win32_113\\chromedriver.exe");
 		//ChromeOptions
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
