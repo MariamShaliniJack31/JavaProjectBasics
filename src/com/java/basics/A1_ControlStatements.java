@@ -67,7 +67,7 @@ public class A1_ControlStatements {
 				System.out.println("Number is : " +num);  
 		}
 		
-		char ch='D';    
+		char ch='e';    
 	    switch(ch)  
 	    {  
 	    case 'a':  case 'e': case 'i': case 'o': case 'u' : case 'A':  case 'E': case 'I': case 'O': case 'U' :   

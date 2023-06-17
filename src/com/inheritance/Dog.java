@@ -1,4 +1,4 @@
-package com.inheritance;
+package com.Inheritance;
 
 public class Dog extends Animal	{  
 	
@@ -7,6 +7,6 @@ public class Dog extends Animal	{
 	} 
 	
 	public void eating() {
-		System.out.println("Dog is Eating");
+		System.out.println("Subclass Dog is Eating");
 	}
 }
