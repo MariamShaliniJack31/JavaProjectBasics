@@ -8,6 +8,11 @@ import org.testng.annotations.Test;
 @Listeners(value = ListenersTestNG.class)
 public class TestNGClass {
 
+	@BeforeClass
+	public void setUp() {
+		System.out.println("Before Class Method");
+	}
+	
 	@Test
 	public void test1() {
 		System.out.println("My First Test");
@@ -18,13 +23,8 @@ public class TestNGClass {
 		System.out.println("My Second Test");
 	}
 
-	@BeforeClass
-	public void setUp() {
-		System.out.println("Before Class Method");
-	}
-
 	@AfterClass
 	public void cleanUp() {
-		System.out.println("After Class Mwethod");
+		System.out.println("After Class Method");
 	}
 }

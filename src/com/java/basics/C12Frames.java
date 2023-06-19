@@ -20,9 +20,9 @@ public class C12Frames {
 		//Switch by Index
 		driver.switchTo().frame(0);
 		
-		//Switch by frame id or name
-		driver.switchTo().frame("frame1"); // here frame1 is ID // Couldn't find name attribute
-		System.out.println( driver.getTitle() );
+		//Switch by framer name or ID
+//		driver.switchTo().frame("frame2"); // here frame1 is ID // Couldn't find name attribute
+//		System.out.println( driver.getTitle() );
 		
 		//First find the element using any of locator stratedgy and switch to frame using WebElement on the that frame
 		WebElement iframeElement = driver.findElement(By.id("sampleHeading"));

@@ -22,7 +22,7 @@ public class C2ArrayList {
 
 		////// 	Traversing list through Iterator  		
 		System.out.println("Using Iterator ... The elements in ArrayList are : ");
-		Iterator itr = al.iterator();  
+		Iterator<Integer> itr = al.iterator();  
 		while ( itr.hasNext() ) {  
 			System.out.println( itr.next() );  
 		}  	

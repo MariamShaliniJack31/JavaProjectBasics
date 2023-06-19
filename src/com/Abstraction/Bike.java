@@ -3,7 +3,9 @@ package com.Abstraction;
 abstract class Bike {
 	
 	//An abstract class can have data member, abstract method, method body, constructor and even main() method.
+	//If there is any abstract method in a class, that class must be abstract.
 	
+	//Data Member
 	int speed = 100;
 	
   	//Constructor

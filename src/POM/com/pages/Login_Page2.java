@@ -11,7 +11,8 @@ import POM.com.tests.TC2_1_POM;
 import POM.com.tests.TC_1_POM;
 
 public class Login_Page2 extends TestBase{
-//When running TC_1_POM, write the code as public class Login_Page2 extends TC1_1_POM{
+
+	//When running TC_1_POM, write the code as public class Login_Page2 extends TC1_1_POM{
 	// E-Mail
 	@FindBy(xpath = "//input[@id='email']")
 	public WebElement email;

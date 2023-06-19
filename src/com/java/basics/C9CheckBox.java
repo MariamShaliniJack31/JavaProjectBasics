@@ -31,6 +31,6 @@ public class C9CheckBox {
 //		driver.findElement(By.id("fname")).sendKeys("Shalini");
 //		Thread.sleep(3000);
 //		driver.findElement(By.id("fname")).clear();
-		driver.quit();
+		//driver.quit();
 	}
 }

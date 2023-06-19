@@ -61,3 +61,6 @@ public class C7SelectDropDown {
 	    }
 	}
 }
+
+//	//input[@name='firstName']
+//	//b[text()='Email:']

@@ -33,6 +33,7 @@ public class C11WindowsHandler {
 	
 		String mWndHandle = driver.getWindowHandle();
 			
+		//Set of handler Strings
 		Set<String> strWndHandles = driver.getWindowHandles(); 
 		for(String wndHandle : strWndHandles) { 
 			System.out.println(wndHandle);
