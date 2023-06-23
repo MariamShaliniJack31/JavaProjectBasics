@@ -28,7 +28,7 @@ public class A2_LoopingStatements {
 		}    
 		
 		// do ..while loop
-		i = 0;    
+		i = 12;    
 		System.out.println("\nPrinting the list of first 10 even numbers using DO WHILE LOOP");    
 		do {    
 			System.out.println(i);    

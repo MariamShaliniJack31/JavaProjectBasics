@@ -15,7 +15,7 @@ public class C2ArrayList {
 		System.out.println("ArrayList Size is : " +al.size());
 		al.remove(2);
 		System.out.println(al.get(2));
-
+		
 		System.out.println("The elements in ArrayList are : ");
 		for (int z : al)
 			System.out.println(z);
