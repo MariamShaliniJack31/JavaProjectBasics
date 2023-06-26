@@ -16,6 +16,10 @@ public class C7SelectDropDown {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS) ;
 		driver.get("http://demo.guru99.com/selenium/newtours/register.php");
+		
+//		driver.navigate().back();
+//		driver.navigate().forward();
+//		driver.navigate().to(URL arg0);
 	
 //		WebElement country = driver.findElement(By.name("country"));
 //		Select drpCountry = new Select(country);

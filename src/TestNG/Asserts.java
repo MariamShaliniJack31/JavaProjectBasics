@@ -35,7 +35,7 @@ public class Asserts {
 	    System.out.println(originalTitle);
 	    ///These are Hard Assets..it stops test execution when Assert fails
 	    //Assert.assertEquals(originalTitle, expectedTitle);
-	    Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match");
+	    Assert.assertEquals(originalTitle, expectedTitle, "Titles of the website do not match"); //oet
 	}
 	
 	@Test (priority = 1)
