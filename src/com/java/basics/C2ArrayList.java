@@ -7,6 +7,7 @@ public class C2ArrayList {
 	public static void main(String[] args) {
 
 		////ArrayList
+		//add, remove, clear, removeAll, get, iterator, size
 		List<Integer> al = new ArrayList<Integer>();
 
 		for(int i = 0; i <= 10; i++)
@@ -27,7 +28,7 @@ public class C2ArrayList {
 			System.out.println( itr.next() );  
 		}  	
 		
-		//add, remove, clear, removeAll, get, iterator, size
+		
 
 
 
@@ -61,6 +62,7 @@ public class C2ArrayList {
 		System.out.println("Sorted Set : \n"+sortedset);
 
 		///////HashMap
+		//put , keySet, values
 		Map<String,String> map = new HashMap<>();
 
 		map.put("a", "Apple");

@@ -6,13 +6,13 @@ public class A6_String {
 
 	public static void main(String[] args) {
 		
-		String text = "Hello, My name is Sachin";  
+		String text = "Hello, My name is Sachin 231";  
         
 		/* Splits the sentence by the delimiter passed as an argument and returns a string array*/  
-        String[] sentences = text.split("\\s");  
-        System.out.println(Arrays.toString(sentences)); 
+        String[] arr = text.split("\\s");  
+        System.out.println(Arrays.toString(arr)); 
         
-        for (String i : sentences)
+        for (String i : arr)
         {
         	System.out.println(i);
         }
@@ -24,7 +24,7 @@ public class A6_String {
         System.out.println(sjoin);
         
         //  CompareTo returns int value
-        text = "  MS DHONI    ";
+        text = "    MS MAHENDRA SINGH DHONI MS MS MS   ";
         System.out.println(text.compareTo("Sachin"));
 
         //  Concat returns String
@@ -32,25 +32,23 @@ public class A6_String {
         
         //  Substring Sting
         System.out.println(text.substring(0, 5));
-        
-//        toUpperCase() and toLowerCase() method
-//        trim()
-//        startsWith() and endsWith() - Boolean
-//        s.charAt(0)  - character
-//        length() – int
+
         //replace() method replaces all occurrence of first sequence of character with second sequence of character.
-        System.out.println(text.replace("MS", "MR"));
-        
+        System.out.println(text.replace("MS", "MRRRRRRRRRRRRRRRRRS"));
+        System.out.println(text.replaceAll("MS", "DRRRRDRRRDRR"));
         
         System.out.println(text.toLowerCase());
         System.out.println(text.trim());
-        
         System.out.println(text.replace(text, "MARIAM SHALINI JACK JUTURU") );
+        System.out.println(text);
+        System.out.println(text.endsWith("DHONI"));
         
         StringBuffer sb = new StringBuffer("Hello");
         System.out.println( sb.reverse() );
         
-        
+        String s1 = "javatpoint is a very good website";  
+        String replaceString = s1.replace('a','e');//replaces all occurrences of 'a' to 'e'  
+        System.out.println(replaceString);
 	}
 
 }

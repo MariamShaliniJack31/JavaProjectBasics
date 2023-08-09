@@ -4,7 +4,7 @@ public class C3ReverseString {
 
 	public static void main(String[] args) {
 		
-		String str = "I am taking Selenium Online Training";
+		String str = "I am taking Selenium Online Training on 03072023";
 		String x = "";
 		System.out.println(str.length());
 		
@@ -13,8 +13,12 @@ public class C3ReverseString {
 		}
 		System.out.println(x);
 		
-		String[] str2 = str.split("\\ ");  //Delimiter is space here
+		String[] str2 = str.split("\\ ");  //Delimiter is space here... WE CAN GIVE \\s
 		for (String  s : str2)
+			System.out.println(s);
+		
+		String[] str3 = str.split("\\d");  //Delimiter is Digit here
+		for (String  s : str3)
 			System.out.println(s);
 		
 		/////////////StringBuffer
